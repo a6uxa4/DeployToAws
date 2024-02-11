@@ -1,14 +1,7 @@
-import "./App.css";
-import { Buttons1 } from "./buttons/part-1";
+import { Button2 } from "./buttons/part-2";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Buttons1 />
-      </header>
-    </div>
-  );
+  return <Button2 />;
 }
 
 export default App;
