@@ -1,19 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Buttons1 } from "./buttons/part-1";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Deploy to AWS through amplify</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Buttons1 />
       </header>
     </div>
   );
