@@ -1,7 +1,7 @@
-import { Button2 } from "./buttons/part-2";
+import { Button3 } from "./buttons/part-3";
 
 function App() {
-  return <Button2 />;
+  return <Button3 />;
 }
 
 export default App;
