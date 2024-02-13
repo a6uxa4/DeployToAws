@@ -1,0 +1,155 @@
+.share {
+  width: 150px;
+  height: 150px;
+  margin: 5em auto;
+  background: rgba(10, 237, 189, 1);
+  background: -webkit-radial-gradient(
+    top left,
+    rgba(10, 237, 189, 1),
+    rgba(37, 211, 103, 1)
+  );
+  background: -moz-radial-gradient(
+    top left,
+    rgba(10, 237, 189, 1),
+    rgba(37, 211, 103, 1)
+  );
+  background: radial-gradient(
+    to bottom right,
+    rgba(10, 237, 189, 1),
+    rgba(37, 211, 103, 1)
+  );
+  text-align: center;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.share a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  z-index: 1;
+}
+
+.share::after {
+  content: "Share";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.share:hover::after {
+  color: transparent;
+}
+
+.share:hover {
+  background: rgba(242, 41, 92, 1);
+  background: -webkit-radial-gradient(
+    top left,
+    rgba(242, 41, 92, 1),
+    rgba(41, 172, 225, 1)
+  );
+  background: -moz-radial-gradient(
+    top left,
+    rgba(242, 41, 92, 1),
+    rgba(41, 172, 225, 1)
+  );
+  background: radial-gradient(
+    to bottom right,
+    rgba(242, 41, 92, 1),
+    rgba(41, 172, 225, 1)
+  );
+}
+
+.share a.fb {
+  background: #1266f1;
+  top: -5.65em;
+  left: -2.83em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.share a.tw {
+  background: #28abe1;
+  top: -6.55em;
+  right: -9.39em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.share a.ins {
+  background: #f2295b;
+  bottom: 6.7em;
+  left: -7.5em;
+  -webkit-tra3nsition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.share a.wh {
+  background: #25d366;
+  right: -2.81em;
+  bottom: 7.5em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.share:hover a.fb {
+  top: -0.96em;
+}
+
+.share:hover a.tw {
+  right: -2.8em;
+}
+
+.share:hover a.ins {
+  left: -2.84em;
+}
+
+.share:hover a.wh {
+  bottom: 12.3em;
+}
+
+.facebook {
+  padding-top: 45%;
+}
+
+.instagram {
+  padding-left: 30%;
+  padding-top: 15%;
+}
+
+.whatsapp {
+  padding-left: 15%;
+  padding-top: 15%;
+}
+
+.twitter {
+  padding-top: 25%;
+  padding-left: 10%;
+}
+
+.fb:hover {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5) inset;
+}
+
+.tw:hover {
+  box-shadow: 10px 5px 30px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.ins:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5) inset;
+}
+
+.wh:hover {
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5) inset;
+}

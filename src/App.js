@@ -1,7 +1,9 @@
-import { Button3 } from "./buttons/part-3";
-
 function App() {
-  return <Button3 />;
+  return (
+    <div style={{ color: "white", fontWeight: "800", fontSize: "50px" }}>
+      React deploy to with NETLIFY
+    </div>
+  );
 }
 
 export default App;
